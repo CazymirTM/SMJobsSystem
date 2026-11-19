@@ -3,7 +3,7 @@ SMJobsSystem - jobs, XP levels and perks for Scrap Mechanic Survival
 
 Made for Scrap Mechanic 1.0.7a (Steam, Windows 64-bit).
 
-REQUIRES SMLoader 1.0.0 or newer: https://github.com/CazymirTM/SMLoader
+REQUIRES SMLoader 1.1.0 or newer: https://github.com/CazymirTM/SMLoader
 CO-OP: EVERY player in the world needs SMLoader + SMJobsSystem.
 
 INSTALL

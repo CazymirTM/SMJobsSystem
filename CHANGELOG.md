@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1
+
+- Multiplayer now runs on SMLoader's built-in **SMNetworking**: the co-op
+  check, host settings and menu requests. Requires **SMLoader 1.1.0+**.
+- Players with a different SMJobsSystem version are now detected and named,
+  and jobs pause until everyone matches.
+- Host settings (pause state, XP multiplier) reach players who join late right
+  away.
+- SMJobsSystem no longer wraps the game's own tick function, so it can't clash
+  with other mods that hook the same function.
+- Your saved jobs and XP carry over unchanged.
+
 ## 1.0 — first public release
 
 - Six jobs: Miner, Engineer, Farmer, Warrior, Mechanic and Merchant.

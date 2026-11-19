@@ -4,7 +4,7 @@ Jobs, XP levels and perks for **Scrap Mechanic Survival**, built on
 [SMLoader](https://github.com/CazymirTM/SMLoader). Pick a job, level it from
 1 to 50, and unlock new perks as you go. It's co-op friendly.
 
-> Requires **SMLoader 1.0.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
+> Requires **SMLoader 1.1.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
 > Survival only · **every player in the world needs it**
 
 ## How it works
@@ -17,8 +17,9 @@ Jobs, XP levels and perks for **Scrap Mechanic Survival**, built on
   "+XP" pop-ups and a level-up banner.
 - **Host XP multiplier (1–10×):** the host of the world can speed up levelling
   for everyone in the *Host* tab. It's saved with the world.
-- **Co-op check:** if someone in the world doesn't have SMJobsSystem, jobs pause
-  for everyone, and the menu names who is missing it.
+- **Co-op check:** if someone in the world doesn't have SMJobsSystem (or has a
+  different version), jobs pause for everyone, and the menu names who it is.
+  It uses SMLoader's built-in SMNetworking.
 - **Saved in the world.** Each player's job and XP live in the world's save
   file, next to their inventory, so progress is per world.
 
@@ -80,9 +81,9 @@ Jobs, XP levels and perks for **Scrap Mechanic Survival**, built on
 
 ## Install
 
-1. Install [SMLoader](https://github.com/CazymirTM/SMLoader/releases). Every
-   player in your world needs it.
-2. Download `SMJobsSystem-v1.0.zip` from **Releases**.
+1. Install [SMLoader](https://github.com/CazymirTM/SMLoader/releases) 1.1.0 or
+   newer. Every player in your world needs it.
+2. Download `SMJobsSystem-v1.1.zip` from **Releases**.
 3. Copy its `SMLoader` folder into your game folder and let it merge.
 4. Load a Survival world, press **J** and pick a job.
 
