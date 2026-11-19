@@ -1,0 +1,41 @@
+SMJobsSystem - jobs, XP levels and perks for Scrap Mechanic Survival
+=====================================================================
+
+Made for Scrap Mechanic 1.0.7a (Steam, Windows 64-bit).
+
+REQUIRES SMLoader 1.0.0 or newer: https://github.com/CazymirTM/SMLoader
+CO-OP: EVERY player in the world needs SMLoader + SMJobsSystem.
+
+INSTALL
+-------
+1. Install SMLoader first (see its README).
+2. Open your game folder:
+   Steam -> right-click Scrap Mechanic -> Manage -> Browse local files.
+3. Copy the  SMLoader  folder from this zip into the game folder and allow it
+   to merge with the existing SMLoader folder. It adds:
+     SMLoader\mods\SMJobsSystem.dll
+     SMLoader\SMJobsSystem\fonts
+4. Load a Survival world, press J and pick a job.
+
+USE
+---
+- J opens the jobs menu (you can change the key in Settings).
+- Your XP bar is under the compass.
+- The world's host can raise the XP multiplier (1x - 10x) in the Host tab.
+- If someone in the world doesn't have SMJobsSystem, jobs pause for everyone
+  until they install it or leave.
+- Progress is saved in the world's save file (per world).
+
+UNINSTALL
+---------
+Delete  SMLoader\mods\SMJobsSystem.dll  (and the  SMLoader\SMJobsSystem  folder).
+Job progress stays in your world saves, unused, and comes back if you
+reinstall.
+
+LICENCE
+-------
+SMJobsSystem is closed-source freeware (c) 2026 CeZeY22: free to use, but no
+re-uploads, modified versions or reverse engineering. See LICENSE. Share the
+official page instead: https://github.com/CazymirTM/SMJobsSystem
+
+Not affiliated with or endorsed by Axolot Games.
